@@ -1,0 +1,22 @@
+{
+  "name": "research-paper-review",
+  "version": "1.0.0",
+  "description": "Review and analyze academic research papers — consistency checks, structured critique, venue-specific feedback, pre-submission review",
+  "author": "BESSER-PEARL",
+  "contributors": [
+    "Armen Sulejmani",
+    "Ivan David Alfonso",
+    "Jordi Cabot"
+  ],
+  "keywords": [
+    "skill",
+    "research",
+    "paper-review",
+    "academic",
+    "peer-review",
+    "literature-review",
+    "pre-submission",
+    "numerical-consistency"
+  ],
+  "license": "MIT"
+}
