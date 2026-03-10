@@ -1,6 +1,6 @@
-# BESSER Agent Skills
+# BESSER Agent Skills for Research
 
-A collection of AI agent skills by [BESSER-PEARL](https://github.com/BESSER-PEARL), the open-source low-code platform research group at the Luxembourg Institute of Science and Technology (LIST).
+A collection of AI agent skills to help in your research activities. Developed by [BESSER-PEARL](https://github.com/BESSER-PEARL), the team behind the open-source low-code platform of the same name hosted at the Luxembourg Institute of Science and Technology (LIST).
 
 These skills work with **any AI assistant**:
 
