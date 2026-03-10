@@ -2,7 +2,10 @@
 
 A collection of AI agent skills by [BESSER-PEARL](https://github.com/BESSER-PEARL), the open-source low-code platform research group at the Luxembourg Institute of Science and Technology (LIST).
 
-These skills work with any agent that supports the [Agent Skills](https://skills.sh) specification: Claude Code, Cursor, GitHub Copilot, Windsurf, and more.
+These skills work with **any AI assistant**:
+
+- **Coding agents** (via CLI): Claude Code, Cursor, GitHub Copilot, Windsurf, and [40+ more](https://skills.sh)
+- **AI chats** (via copy-paste): ChatGPT, Claude.ai, Gemini, and any LLM that accepts a system prompt
 
 ## Available Skills
 
@@ -11,6 +14,8 @@ These skills work with any agent that supports the [Agent Skills](https://skills
 | [research-paper-review](./research-paper-review/) | Systematic academic paper review with numerical consistency checks, structured critique, venue-specific feedback, and prioritized action items |
 
 ## Installation
+
+### Coding agents (Claude Code, Cursor, Copilot, Windsurf, etc.)
 
 Install all skills:
 
@@ -24,15 +29,21 @@ Install a specific skill:
 npx skills add BESSER-PEARL/agent-skills@research-paper-review
 ```
 
-## Usage
+Once installed, skills activate automatically when the agent detects a matching task. You can also invoke them explicitly with `/research-paper-review`.
 
-Once installed, skills activate automatically when the agent detects a matching task. You can also invoke them explicitly:
+### ChatGPT, Claude.ai, Gemini, or any AI chat
 
-```
-/research-paper-review
-```
+No installation needed:
 
-### Example: Reviewing a Paper
+1. Open the [SKILL.md](./research-paper-review/SKILL.md) of the skill you want
+2. Copy its contents
+3. Paste it into your AI chat as:
+   - **ChatGPT** → Custom Instructions or start of conversation
+   - **Claude.ai** → Project Knowledge or start of conversation
+   - **Gemini** → Gems or start of conversation
+4. Upload your paper and ask for a review
+
+## Example
 
 Provide the paper (PDF, LaTeX, or text) and optionally specify the target venue and paper type:
 

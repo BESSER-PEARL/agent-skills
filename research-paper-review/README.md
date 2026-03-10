@@ -15,9 +15,27 @@ When you share a research paper (PDF, LaTeX, or plain text), this skill guides t
 
 ## Installation
 
+### Option A: Agent skills CLI (Claude Code, Cursor, Copilot, Windsurf, etc.)
+
 ```bash
 npx skills add BESSER-PEARL/agent-skills@research-paper-review
 ```
+
+This auto-installs the skill into your local agent. It activates automatically when you share a paper.
+
+### Option B: ChatGPT, Claude, Gemini, or any other AI chat
+
+No installation needed. Just:
+
+1. Copy the contents of [SKILL.md](./SKILL.md)
+2. Paste it as:
+   - **ChatGPT** → Custom Instructions or start of conversation
+   - **Claude.ai** → Project Knowledge or start of conversation
+   - **Gemini** → Gems or start of conversation
+3. Upload your paper (PDF) and ask for a review
+
+> **Tip:** For best results, paste the SKILL.md content first, then upload the paper and write:
+> *"Review this paper for [VENUE] as a [TYPE] submission."*
 
 ## Usage
 
