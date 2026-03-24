@@ -9,9 +9,9 @@ These skills work with **any AI assistant**:
 
 ## Available Skills
 
-| Skill | Description |
-|-------|-------------|
-| [research-paper-review](./research-paper-review/) | Systematic academic paper review with numerical consistency checks, structured critique, venue-specific feedback, and prioritized action items |
+| Skill | Description | skills.sh |
+|-------|-------------|-------|
+| [research-paper-review](./research-paper-review/) | Systematic academic paper review with numerical consistency checks, structured critique, venue-specific feedback, and prioritized action items |https://skills.sh/besser-pearl/agent-skills/research-paper-review|
 
 ## Installation
 
